@@ -1,13 +1,198 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "proyectos": [
+  {
+    "id": "21",
+    "lider": "Luis",
+    "estado": "en progreso",
+    "fechaInicio": "2023-11-20",
+    "fechaFin": null,
+    "nombre": "Proyecto U"
+  },
+  {
+    "id": "22",
+    "lider": "Marina",
+    "estado": "sin comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "nombre": "Proyecto V"
+  },
+  {
+    "id": "23",
+    "lider": "Pablo",
+    "estado": "finalizado",
+    "fechaInicio": "2023-10-01",
+    "fechaFin": "2023-11-15",
+    "nombre": "Proyecto W"
+  },
+  {
+    "id": "24",
+    "lider": "Natalie",
+    "estado": "en progreso",
+    "fechaInicio": "2023-11-15",
+    "fechaFin": null,
+    "nombre": "Proyecto X"
+  },
+  {
+    "id": "25",
+    "lider": "Ricardo",
+    "estado": "sin comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "nombre": "Proyecto Y"
+  },
+  {
+    "id": "26",
+    "lider": "Sara",
+    "estado": "finalizado",
+    "fechaInicio": "2023-08-25",
+    "fechaFin": "2023-09-20",
+    "nombre": "Proyecto Z"
+  },
+  {
+    "id": "27",
+    "lider": "Carlos",
+    "estado": "en progreso",
+    "fechaInicio": "2023-11-08",
+    "fechaFin": null,
+    "nombre": "Proyecto AA"
+  },
+  {
+    "id": "28",
+    "lider": "Lucia",
+    "estado": "sin comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "nombre": "Proyecto BB"
+  },
+  {
+    "id": "29",
+    "lider": "Antonio",
+    "estado": "finalizado",
+    "fechaInicio": "2023-07-15",
+    "fechaFin": "2023-08-30",
+    "nombre": "Proyecto CC"
+  },
+  {
+    "id": "30",
+    "lider": "Marta",
+    "estado": "en progreso",
+    "fechaInicio": "2023-10-30",
+    "fechaFin": null,
+    "nombre": "Proyecto DD"
+  }
+],
+  "tareas": [
+  {
+    "project_id": "21",
+    "estado": "En Progreso",
+    "fechaInicio": "2024-02-01",
+    "fechaFin": null,
+    "prioridad": "Alta",
+    "asignado": "Andrea Aranda",
+    "titulo": "Mejorar funcionalidad de búsqueda",
+    "id": "60",
+    "descripcion": "Realizar mejoras en la función de búsqueda para obtener resultados más precisos."
+  },
+  {
+    "project_id": "22",
+    "estado": "Sin Comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "prioridad": "Baja",
+    "asignado": "Hugo Herrera",
+    "titulo": "Desarrollar módulo de chat",
+    "id": "63",
+    "descripcion": "Crear un sistema de chat para permitir la comunicación entre usuarios."
+  },
+  {
+    "project_id": "23",
+    "estado": "Finalizado",
+    "fechaInicio": "2024-02-05",
+    "fechaFin": "2024-02-20",
+    "prioridad": "Media",
+    "asignado": "Isabel Ibarra",
+    "titulo": "Implementar autenticación de dos factores",
+    "id": "66",
+    "descripcion": "Añadir una capa adicional de seguridad mediante la autenticación de dos factores."
+  },
+  {
+    "project_id": "24",
+    "estado": "Bloqueado",
+    "fechaInicio": "2024-02-10",
+    "fechaFin": null,
+    "prioridad": "Alta",
+    "asignado": "Jorge Jiménez",
+    "titulo": "Resolver conflictos de fusión en el repositorio",
+    "id": "69",
+    "descripcion": "Abordar y solucionar los conflictos surgidos durante la fusión de ramas en el repositorio de código."
+  },
+  {
+    "project_id": "25",
+    "estado": "Sin Comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "prioridad": "Baja",
+    "asignado": "Karla Kowalski",
+    "titulo": "Diseñar iconos personalizados",
+    "id": "72",
+    "descripcion": "Crear iconos únicos y personalizados para mejorar la estética de la aplicación."
+  },
+  {
+    "project_id": "26",
+    "estado": "En Progreso",
+    "fechaInicio": "2024-02-15",
+    "fechaFin": null,
+    "prioridad": "Media",
+    "asignado": "Lorenzo López",
+    "titulo": "Integrar API de redes sociales",
+    "id": "75",
+    "descripcion": "Conectar la aplicación con las API de redes sociales para permitir compartir contenido fácilmente."
+  },
+  {
+    "project_id": "27",
+    "estado": "Finalizado",
+    "fechaInicio": "2024-02-20",
+    "fechaFin": "2024-03-05",
+    "prioridad": "Alta",
+    "asignado": "Mónica Morales",
+    "titulo": "Actualizar bibliotecas y dependencias",
+    "id": "78",
+    "descripcion": "Mantener las bibliotecas y dependencias de la aplicación actualizadas para aprovechar las últimas mejoras y correcciones."
+  },
+  {
+    "project_id": "28",
+    "estado": "Bloqueado",
+    "fechaInicio": "2024-02-25",
+    "fechaFin": null,
+    "prioridad": "Baja",
+    "asignado": "Nicolás Núñez",
+    "titulo": "Investigar soluciones de almacenamiento en la nube",
+    "id": "81",
+    "descripcion": "Explorar y evaluar opciones de almacenamiento en la nube para optimizar la gestión de datos."
+  },
+  {
+    "project_id": "29",
+    "estado": "Sin Comenzar",
+    "fechaInicio": null,
+    "fechaFin": null,
+    "prioridad": "Alta",
+    "asignado": "Olivia Ortega",
+    "titulo": "Desarrollar funcionalidad de arrastrar y soltar",
+    "id": "84",
+    "descripcion": "Agregar la capacidad de arrastrar y soltar elementos en la interfaz de usuario."
+  },
+  {
+    "project_id": "30",
+    "estado": "En Progreso",
+    "fechaInicio": "2024-03-01",
+    "fechaFin": null,
+    "prioridad": "Media",
+    "asignado": "Pedro Pérez",
+    "titulo": "Crear sistema de notificaciones push",
+    "id": "87",
+    "descripcion": "Implementar notificaciones push para mantener a los usuarios informados de manera instantánea."
+  }
+],
   "profile": {
     "name": "typicode"
   }
