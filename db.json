@@ -193,6 +193,7 @@
     "descripcion": "Implementar notificaciones push para mantener a los usuarios informados de manera instantánea."
   }
 ],
+  "recursos":[{"legajo":1,"Nombre":"Mario","Apellido":"Mendoza"},{"legajo":2,"Nombre":"Maria","Apellido":"Perez"},{"legajo":3,"Nombre":"Patricia","Apellido":"Gaona"}],
   "profile": {
     "name": "typicode"
   }
