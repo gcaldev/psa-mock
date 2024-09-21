@@ -197,613 +197,332 @@
   "profile": {
     "name": "typicode"
   },
-      "productos": [
-        {
-            "id": 1,
-            "nombre": "Manzana Roja",
-            "categoria": {
-                "principal": "Frutas y Verduras",
-                "subcategoria": "Frutas"
-            },
-            "marca": "FreshFruits",
-            "precio": 1.25,
-            "unidad": "kg",
-            "disponibilidad": 50,
-            "descripcion": "Manzanas frescas y crujientes de la variedad roja.",
-            "fecha_expiracion": "2024-10-15",
-            "codigo_barras": "1234567890123",
-            "pais_origen": "Chile",
-            "valor_nutricional": {
-                "calorias": 52,
-                "proteinas": 0.3,
-                "grasas": 0.2,
-                "carbohidratos": 14,
-                "fibra": 2.4
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Juan Pérez",
-                    "calificacion": 4.5,
-                    "comentario": "Muy frescas y de buen sabor."
-                },
-                {
-                    "cliente": "Ana López",
-                    "calificacion": 4.0,
-                    "comentario": "Un poco pequeñas pero de buen sabor."
-                }
-            ],
-            "imagen_url": "https://example.com/images/manzana_roja.jpg"
-        },
-        {
-            "id": 2,
-            "nombre": "Leche Entera",
-            "categoria": {
-                "principal": "Lácteos",
-                "subcategoria": "Leche"
-            },
-            "marca": "LecheVida",
-            "precio": 0.99,
-            "unidad": "litro",
-            "disponibilidad": 200,
-            "descripcion": "Leche entera pasteurizada.",
-            "fecha_expiracion": "2024-09-30",
-            "codigo_barras": "2345678901234",
-            "pais_origen": "Argentina",
-            "valor_nutricional": {
-                "calorias": 42,
-                "proteinas": 3.4,
-                "grasas": 1.0,
-                "carbohidratos": 5.0,
-                "calcio": 125
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Carlos Ruiz",
-                    "calificacion": 5.0,
-                    "comentario": "Muy buena calidad, la compro siempre."
-                }
-            ],
-            "imagen_url": "https://example.com/images/leche_entera.jpg"
-        },
-        {
-            "id": 3,
-            "nombre": "Arroz Integral",
-            "categoria": {
-                "principal": "Cereales y Legumbres",
-                "subcategoria": "Arroz"
-            },
-            "marca": "NutriGrain",
-            "precio": 2.50,
-            "unidad": "kg",
-            "disponibilidad": 100,
-            "descripcion": "Arroz integral 100% natural.",
-            "fecha_expiracion": "2025-03-12",
-            "codigo_barras": "3456789012345",
-            "pais_origen": "Brasil",
-            "valor_nutricional": {
-                "calorias": 111,
-                "proteinas": 2.6,
-                "grasas": 0.9,
-                "carbohidratos": 23,
-                "fibra": 1.8
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "María García",
-                    "calificacion": 4.8,
-                    "comentario": "Excelente calidad y buen precio."
-                },
-                {
-                    "cliente": "Pedro Sánchez",
-                    "calificacion": 4.0,
-                    "comentario": "Buen sabor, aunque se tarda en cocinar."
-                }
-            ],
-            "imagen_url": "https://example.com/images/arroz_integral.jpg"
-        },
-        {
-            "id": 4,
-            "nombre": "Jugo de Naranja",
-            "categoria": {
-                "principal": "Bebidas",
-                "subcategoria": "Jugos"
-            },
-            "marca": "ZumoFresh",
-            "precio": 1.75,
-            "unidad": "litro",
-            "disponibilidad": 75,
-            "descripcion": "Jugo de naranja natural sin conservantes.",
-            "fecha_expiracion": "2024-10-05",
-            "codigo_barras": "4567890123456",
-            "pais_origen": "España",
-            "valor_nutricional": {
-                "calorias": 45,
-                "proteinas": 0.7,
-                "grasas": 0.1,
-                "carbohidratos": 10.4,
-                "vitamina_c": 50
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Laura Fernández",
-                    "calificacion": 5.0,
-                    "comentario": "Sabe muy bien y es 100% natural."
-                }
-            ],
-            "imagen_url": "https://example.com/images/jugo_naranja.jpg"
-        },
-        {
-            "id": 5,
-            "nombre": "Papel Higiénico",
-            "categoria": {
-                "principal": "Hogar",
-                "subcategoria": "Limpieza"
-            },
-            "marca": "SoftCare",
-            "precio": 4.00,
-            "unidad": "paquete",
-            "disponibilidad": 150,
-            "descripcion": "Papel higiénico suave de 4 capas, 12 rollos.",
-            "fecha_expiracion": null,
-            "codigo_barras": "5678901234567",
-            "pais_origen": "México",
-            "comentarios_clientes": [
-                {
-                    "cliente": "Roberto Gómez",
-                    "calificacion": 4.7,
-                    "comentario": "Muy suave y duradero."
-                }
-            ],
-            "imagen_url": "https://example.com/images/papel_higienico.jpg"
-        },
-        {
-            "id": 6,
-            "nombre": "Aceite de Oliva",
-            "categoria": {
-                "principal": "Aceites",
-                "subcategoria": "Aceites Comestibles"
-            },
-            "marca": "OlivaGold",
-            "precio": 5.50,
-            "unidad": "litro",
-            "disponibilidad": 60,
-            "descripcion": "Aceite de oliva extra virgen de alta calidad.",
-            "fecha_expiracion": "2025-06-01",
-            "codigo_barras": "6789012345678",
-            "pais_origen": "Italia",
-            "valor_nutricional": {
-                "calorias": 884,
-                "grasas": 100,
-                "vitamina_e": 14.35
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Sofía Méndez",
-                    "calificacion": 5.0,
-                    "comentario": "Excelente para ensaladas y cocinar."
-                }
-            ],
-            "imagen_url": "https://example.com/images/aceite_oliva.jpg"
-        },
-        {
-            "id": 7,
-            "nombre": "Pan de Molde",
-            "categoria": {
-                "principal": "Panadería",
-                "subcategoria": "Panes"
-            },
-            "marca": "PanExpress",
-            "precio": 1.20,
-            "unidad": "paquete",
-            "disponibilidad": 80,
-            "descripcion": "Pan de molde blanco, ideal para sándwiches.",
-            "fecha_expiracion": "2024-09-25",
-            "codigo_barras": "7890123456789",
-            "pais_origen": "Argentina",
-            "valor_nutricional": {
-                "calorias": 256,
-                "proteinas": 7.9,
-                "grasas": 3.2,
-                "carbohidratos": 48
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Julia Ortiz",
-                    "calificacion": 4.3,
-                    "comentario": "El pan es suave, ideal para tostadas."
-                }
-            ],
-            "imagen_url": "https://example.com/images/pan_molde.jpg"
-        },
-        {
-            "id": 8,
-            "nombre": "Detergente Líquido",
-            "categoria": {
-                "principal": "Hogar",
-                "subcategoria": "Limpieza"
-            },
-            "marca": "CleanUp",
-            "precio": 3.75,
-            "unidad": "litro",
-            "disponibilidad": 90,
-            "descripcion": "Detergente líquido para ropa, fragancia floral.",
-            "fecha_expiracion": null,
-            "codigo_barras": "8901234567890",
-            "pais_origen": "Brasil",
-            "comentarios_clientes": [
-                {
-                    "cliente": "Marcos Díaz",
-                    "calificacion": 4.6,
-                    "comentario": "Deja la ropa muy limpia y con buen aroma."
-                }
-            ],
-            "imagen_url": "https://example.com/images/detergente_liquido.jpg"
-        },
-        {
-            "id": 9,
-            "nombre": "Cereal de Avena",
-            "categoria": {
-                "principal": "Cereales y Legumbres",
-                "subcategoria": "Cereales"
-            },
-            "marca": "GrainLife",
-            "precio": 2.90,
-            "unidad": "caja",
-            "disponibilidad": 40,
-            "descripcion": "Cereal de avena integral para desayuno.",
-            "fecha_expiracion": "2025-01-10",
-            "codigo_barras": "9012345678901",
-            "pais_origen": "Canadá",
-            "valor_nutricional": {
-                "calorias": 367,
-                "proteinas": 13.2,
-                "grasas": 6.9,
-                "carbohidratos": 56,
-                "fibra": 10.1
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Andrea Soto",
-                    "calificacion": 5.0,
-                    "comentario": "Me encanta para el desayuno, muy saludable."
-                }
-            ],
-            "imagen_url": "https://example.com/images/cereal_avena.jpg"
-        },
-        {
-            "id": 10,
-            "nombre": "Yogur Natural",
-            "categoria": {
-                "principal": "Lácteos",
-                "subcategoria": "Yogures"
-            },
-            "marca": "BioLact",
-            "precio": 1.10,
-            "unidad": "botella",
-            "disponibilidad": 70,
-            "descripcion": "Yogur natural sin azúcar añadido.",
-            "fecha_expiracion": "2024-10-01",
-            "codigo_barras": "0123456789012",
-            "pais_origen": "Uruguay",
-            "valor_nutricional": {
-                "calorias": 59,
-                "proteinas": 3.5,
-                "grasas": 2.0,
-                "carbohidratos": 4.7,
-                "calcio": 120
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Luis Ramos",
-                    "calificacion": 4.9,
-                    "comentario": "Muy bueno, lo uso para batidos y postres."
-                }
-            ],
-            "imagen_url": "https://example.com/images/yogur_natural.jpg"
-        },
-        {
-            "id": 11,
-            "nombre": "Mantequilla Sin Sal",
-            "categoria": {
-                "principal": "Lácteos",
-                "subcategoria": "Mantequilla"
-            },
-            "marca": "DairyFresh",
-            "precio": 1.75,
-            "unidad": "250g",
-            "disponibilidad": 120,
-            "descripcion": "Mantequilla sin sal, ideal para cocinar y hornear.",
-            "fecha_expiracion": "2024-11-01",
-            "codigo_barras": "2345678901123",
-            "pais_origen": "Francia",
-            "valor_nutricional": {
-                "calorias": 717,
-                "proteinas": 0.9,
-                "grasas": 81,
-                "carbohidratos": 0.1
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Santiago Rodríguez",
-                    "calificacion": 4.7,
-                    "comentario": "Muy cremosa y con un sabor suave."
-                }
-            ],
-            "imagen_url": "https://example.com/images/mantequilla.jpg"
-        },
-        {
-            "id": 12,
-            "nombre": "Tomate Perita",
-            "categoria": {
-                "principal": "Frutas y Verduras",
-                "subcategoria": "Verduras"
-            },
-            "marca": "GreenFarm",
-            "precio": 1.85,
-            "unidad": "kg",
-            "disponibilidad": 180,
-            "descripcion": "Tomates frescos de la variedad perita, perfectos para salsas.",
-            "fecha_expiracion": "2024-09-28",
-            "codigo_barras": "3456789012134",
-            "pais_origen": "México",
-            "valor_nutricional": {
-                "calorias": 18,
-                "proteinas": 0.9,
-                "grasas": 0.2,
-                "carbohidratos": 3.9,
-                "fibra": 1.2
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Clara Fernández",
-                    "calificacion": 4.8,
-                    "comentario": "Muy jugosos y frescos, ideales para ensaladas."
-                }
-            ],
-            "imagen_url": "https://example.com/images/tomate_perita.jpg"
-        },
-        {
-            "id": 13,
-            "nombre": "Pechuga de Pollo",
-            "categoria": {
-                "principal": "Carnes",
-                "subcategoria": "Pollo"
-            },
-            "marca": "FarmFresh",
-            "precio": 4.90,
-            "unidad": "kg",
-            "disponibilidad": 100,
-            "descripcion": "Pechuga de pollo deshuesada y sin piel, lista para cocinar.",
-            "fecha_expiracion": "2024-09-24",
-            "codigo_barras": "4567890123451",
-            "pais_origen": "Argentina",
-            "valor_nutricional": {
-                "calorias": 165,
-                "proteinas": 31,
-                "grasas": 3.6,
-                "carbohidratos": 0
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Miguel Castillo",
-                    "calificacion": 5.0,
-                    "comentario": "Muy tierna, perfecta para hacer a la plancha."
-                }
-            ],
-            "imagen_url": "https://example.com/images/pechuga_pollo.jpg"
-        },
-        {
-            "id": 14,
-            "nombre": "Café Molido",
-            "categoria": {
-                "principal": "Bebidas",
-                "subcategoria": "Café"
-            },
-            "marca": "Café Supremo",
-            "precio": 3.50,
-            "unidad": "500g",
-            "disponibilidad": 60,
-            "descripcion": "Café molido de alta calidad, sabor intenso.",
-            "fecha_expiracion": "2025-02-15",
-            "codigo_barras": "5678901234562",
-            "pais_origen": "Colombia",
-            "valor_nutricional": {
-                "calorias": 0,
-                "proteinas": 0,
-                "grasas": 0,
-                "carbohidratos": 0
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Sofía Ramírez",
-                    "calificacion": 4.9,
-                    "comentario": "Sabor fuerte y agradable, perfecto para las mañanas."
-                }
-            ],
-            "imagen_url": "https://example.com/images/cafe_molido.jpg"
-        },
-        {
-            "id": 15,
-            "nombre": "Fideos Integrales",
-            "categoria": {
-                "principal": "Cereales y Legumbres",
-                "subcategoria": "Pasta"
-            },
-            "marca": "WholeGrain",
-            "precio": 2.30,
-            "unidad": "500g",
-            "disponibilidad": 90,
-            "descripcion": "Fideos integrales ricos en fibra, ideales para una dieta saludable.",
-            "fecha_expiracion": "2025-01-01",
-            "codigo_barras": "6789012345673",
-            "pais_origen": "Italia",
-            "valor_nutricional": {
-                "calorias": 350,
-                "proteinas": 12,
-                "grasas": 2.5,
-                "carbohidratos": 70,
-                "fibra": 10
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Fernando Pérez",
-                    "calificacion": 4.5,
-                    "comentario": "Muy buenos para mantener una alimentación balanceada."
-                }
-            ],
-            "imagen_url": "https://example.com/images/fideos_integrales.jpg"
-        },
-        {
-            "id": 16,
-            "nombre": "Queso Rallado",
-            "categoria": {
-                "principal": "Lácteos",
-                "subcategoria": "Queso"
-            },
-            "marca": "CheeseLand",
-            "precio": 2.99,
-            "unidad": "150g",
-            "disponibilidad": 75,
-            "descripcion": "Queso parmesano rallado, ideal para pastas.",
-            "fecha_expiracion": "2024-12-25",
-            "codigo_barras": "7890123456784",
-            "pais_origen": "Suiza",
-            "valor_nutricional": {
-                "calorias": 431,
-                "proteinas": 36,
-                "grasas": 29,
-                "carbohidratos": 3.6
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Valentina Ortiz",
-                    "calificacion": 4.7,
-                    "comentario": "Buen sabor y se derrite bien en la pasta."
-                }
-            ],
-            "imagen_url": "https://example.com/images/queso_rallado.jpg"
-        },
-        {
-            "id": 17,
-            "nombre": "Atún en Aceite",
-            "categoria": {
-                "principal": "Conservas",
-                "subcategoria": "Pescados"
-            },
-            "marca": "MarDelight",
-            "precio": 1.90,
-            "unidad": "lata",
-            "disponibilidad": 130,
-            "descripcion": "Atún en aceite vegetal, ideal para ensaladas.",
-            "fecha_expiracion": "2025-05-01",
-            "codigo_barras": "8901234567895",
-            "pais_origen": "Perú",
-            "valor_nutricional": {
-                "calorias": 200,
-                "proteinas": 26,
-                "grasas": 9,
-                "carbohidratos": 0
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Esteban García",
-                    "calificacion": 4.9,
-                    "comentario": "Excelente para ensaladas, muy buen sabor."
-                }
-            ],
-            "imagen_url": "https://example.com/images/atun_aceite.jpg"
-        },
-        {
-            "id": 18,
-            "nombre": "Mermelada de Fresa",
-            "categoria": {
-                "principal": "Desayuno",
-                "subcategoria": "Mermeladas"
-            },
-            "marca": "SweetBerry",
-            "precio": 2.50,
-            "unidad": "350g",
-            "disponibilidad": 45,
-            "descripcion": "Mermelada de fresa natural, sin conservantes.",
-            "fecha_expiracion": "2024-12-10",
-            "codigo_barras": "9012345678906",
-            "pais_origen": "España",
-            "valor_nutricional": {
-                "calorias": 250,
-                "proteinas": 0.5,
-                "grasas": 0.2,
-                "carbohidratos": 60,
-                "fibra": 2
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Natalia Gómez",
-                    "calificacion": 5.0,
-                    "comentario": "Deliciosa, el sabor a fresa es muy intenso."
-                }
-            ],
-            "imagen_url": "https://example.com/images/mermelada_fresa.jpg"
-        },
-        {
-            "id": 19,
-            "nombre": "Aceite de Oliva Extra Virgen",
-            "categoria": {
-                "principal": "Aceites",
-                "subcategoria": "Aceite de Oliva"
-            },
-            "marca": "OliveGold",
-            "precio": 7.50,
-            "unidad": "750ml",
-            "disponibilidad": 35,
-            "descripcion": "Aceite de oliva extra virgen de primera presión en frío.",
-            "fecha_expiracion": "2025-08-30",
-            "codigo_barras": "0123456789018",
-            "pais_origen": "Italia",
-            "valor_nutricional": {
-                "calorias": 884,
-                "proteinas": 0,
-                "grasas": 100,
-                "carbohidratos": 0
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "Alejandro López",
-                    "calificacion": 4.8,
-                    "comentario": "Gran calidad, perfecto para ensaladas y aderezos."
-                }
-            ],
-            "imagen_url": "https://example.com/images/aceite_oliva.jpg"
-        },
-        {
-            "id": 20,
-            "nombre": "Arroz Integral",
-            "categoria": {
-                "principal": "Cereales y Legumbres",
-                "subcategoria": "Arroz"
-            },
-            "marca": "RiceLife",
-            "precio": 1.70,
-            "unidad": "kg",
-            "disponibilidad": 95,
-            "descripcion": "Arroz integral alto en fibra y nutrientes.",
-            "fecha_expiracion": "2025-04-20",
-            "codigo_barras": "1234567890129",
-            "pais_origen": "India",
-            "valor_nutricional": {
-                "calorias": 370,
-                "proteinas": 7.5,
-                "grasas": 2.7,
-                "carbohidratos": 77,
-                "fibra": 3.5
-            },
-            "comentarios_clientes": [
-                {
-                    "cliente": "María Vargas",
-                    "calificacion": 4.6,
-                    "comentario": "Muy bueno, no se pasa al cocinar y queda suelto."
-                }
-            ],
-            "imagen_url": "https://example.com/images/arroz_integral.jpg"
-        }
-    ]
+  "productos":    [
+    {
+        "id": 1,
+        "nombre": "Manzanas",
+        "imagen": "link_imagen/manzana.jpg",
+        "precio": 650,
+        "categoria": "Frutas",
+        "stock": 150,
+        "descripcion": "Manzanas frescas y crujientes",
+        "marca": "Frutale",
+        "fecha_vencimiento": "2024-10-15",
+        "calorias_por_porcion": 52,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 2,
+        "nombre": "Leche Entera",
+        "imagen": "link_imagen/leche.jpg",
+        "precio": 540,
+        "categoria": "Lácteos",
+        "stock": 200,
+        "descripcion": "Leche entera pasteurizada",
+        "marca": "Leche Fresca",
+        "fecha_vencimiento": "2024-09-30",
+        "calorias_por_porcion": 61,
+        "peso_neto": "1 L"
+    },
+    {
+        "id": 3,
+        "nombre": "Pan Integral",
+        "imagen": "link_imagen/pan.jpg",
+        "precio": 590,
+        "categoria": "Panadería",
+        "stock": 100,
+        "descripcion": "Pan integral fresco y saludable",
+        "marca": "PanArte",
+        "fecha_vencimiento": "2024-09-28",
+        "calorias_por_porcion": 250,
+        "peso_neto": "500 g"
+    },
+    {
+        "id": 4,
+        "nombre": "Arroz",
+        "imagen": "link_imagen/arroz.jpg",
+        "precio": 680,
+        "categoria": "Granos",
+        "stock": 120,
+        "descripcion": "Arroz de grano largo, sin gluten",
+        "marca": "Granos del Sur",
+        "fecha_vencimiento": "2025-01-01",
+        "calorias_por_porcion": 360,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 5,
+        "nombre": "Aceite de Oliva",
+        "imagen": "link_imagen/aceite.jpg",
+        "precio": 3200,
+        "categoria": "Aceites",
+        "stock": 80,
+        "descripcion": "Aceite de oliva virgen extra",
+        "marca": "Oliva Bella",
+        "fecha_vencimiento": "2024-12-01",
+        "calorias_por_porcion": 884,
+        "peso_neto": "500 ml"
+    },
+    {
+        "id": 6,
+        "nombre": "Pollo Entero",
+        "imagen": "link_imagen/pollo.jpg",
+        "precio": 2000,
+        "categoria": "Carnes",
+        "stock": 50,
+        "descripcion": "Pollo fresco, ideal para asar",
+        "marca": "Granja Fresca",
+        "fecha_vencimiento": "2024-10-20",
+        "calorias_por_porcion": 239,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 7,
+        "nombre": "Tomates",
+        "imagen": "link_imagen/tomate.jpg",
+        "precio": 750,
+        "categoria": "Verduras",
+        "stock": 130,
+        "descripcion": "Tomates jugosos y maduros",
+        "marca": "Huerto Verde",
+        "fecha_vencimiento": "2024-10-10",
+        "calorias_por_porcion": 18,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 8,
+        "nombre": "Azúcar",
+        "imagen": "link_imagen/azucar.jpg",
+        "precio": 500,
+        "categoria": "Endulzantes",
+        "stock": 200,
+        "descripcion": "Azúcar blanca refinada",
+        "marca": "Dulce Vida",
+        "fecha_vencimiento": "2025-02-01",
+        "calorias_por_porcion": 387,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 9,
+        "nombre": "Sal",
+        "imagen": "link_imagen/sal.jpg",
+        "precio": 300,
+        "categoria": "Condimentos",
+        "stock": 300,
+        "descripcion": "Sal de mesa fina",
+        "marca": "SalMar",
+        "fecha_vencimiento": "2025-12-31",
+        "calorias_por_porcion": 0,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 10,
+        "nombre": "Pasta",
+        "imagen": "link_imagen/pasta.jpg",
+        "precio": 640,
+        "categoria": "Granos",
+        "stock": 90,
+        "descripcion": "Pasta seca, ideal para ensaladas",
+        "marca": "PastaFina",
+        "fecha_vencimiento": "2025-06-30",
+        "calorias_por_porcion": 371,
+        "peso_neto": "500 g"
+    },
+    {
+        "id": 11,
+        "nombre": "Cereal",
+        "imagen": "link_imagen/cereal.jpg",
+        "precio": 900,
+        "categoria": "Desayunos",
+        "stock": 60,
+        "descripcion": "Cereal integral con frutas",
+        "marca": "CerealDelicioso",
+        "fecha_vencimiento": "2024-11-15",
+        "calorias_por_porcion": 120,
+        "peso_neto": "400 g"
+    },
+    {
+        "id": 12,
+        "nombre": "Yogur Natural",
+        "imagen": "link_imagen/yogur.jpg",
+        "precio": 800,
+        "categoria": "Lácteos",
+        "stock": 110,
+        "descripcion": "Yogur natural sin azúcares añadidos",
+        "marca": "Yogur Saludable",
+        "fecha_vencimiento": "2024-10-05",
+        "calorias_por_porcion": 59,
+        "peso_neto": "1 L"
+    },
+    {
+        "id": 13,
+        "nombre": "Jugo de Naranja",
+        "imagen": "link_imagen/jugo.jpg",
+        "precio": 720,
+        "categoria": "Bebidas",
+        "stock": 140,
+        "descripcion": "Jugo de naranja 100% natural",
+        "marca": "Fruta Fresca",
+        "fecha_vencimiento": "2024-11-30",
+        "calorias_por_porcion": 45,
+        "peso_neto": "1 L"
+    },
+    {
+        "id": 14,
+        "nombre": "Chocolate",
+        "imagen": "link_imagen/chocolate.jpg",
+        "precio": 1500,
+        "categoria": "Snacks",
+        "stock": 70,
+        "descripcion": "Chocolate negro con almendras",
+        "marca": "Dulces Momentos",
+        "fecha_vencimiento": "2025-03-15",
+        "calorias_por_porcion": 546,
+        "peso_neto": "100 g"
+    },
+    {
+        "id": 15,
+        "nombre": "Galletas",
+        "imagen": "link_imagen/galletas.jpg",
+        "precio": 600,
+        "categoria": "Snacks",
+        "stock": 90,
+        "descripcion": "Galletas de avena y pasas",
+        "marca": "Galletas Caseras",
+        "fecha_vencimiento": "2024-10-20",
+        "calorias_por_porcion": 140,
+        "peso_neto": "200 g"
+    },
+    {
+        "id": 16,
+        "nombre": "Frutos Secos",
+        "imagen": "link_imagen/frutos_secos.jpg",
+        "precio": 3000,
+        "categoria": "Snacks",
+        "stock": 50,
+        "descripcion": "Mezcla de frutos secos sin sal",
+        "marca": "NutriSnack",
+        "fecha_vencimiento": "2025-05-01",
+        "calorias_por_porcion": 600,
+        "peso_neto": "250 g"
+    },
+    {
+        "id": 17,
+        "nombre": "Queso Cheddar",
+        "imagen": "link_imagen/queso.jpg",
+        "precio": 2200,
+        "categoria": "Lácteos",
+        "stock": 75,
+        "descripcion": "Queso cheddar curado",
+        "marca": "Quesos de la Tierra",
+        "fecha_vencimiento": "2024-10-30",
+        "calorias_por_porcion": 402,
+        "peso_neto": "200 g"
+    },
+    {
+        "id": 18,
+        "nombre": "Bebida Energética",
+        "imagen": "link_imagen/bebida_energetica.jpg",
+        "precio": 500,
+        "categoria": "Bebidas",
+        "stock": 200,
+        "descripcion": "Bebida energética con taurina",
+        "marca": "Energía Activa",
+        "fecha_vencimiento": "2024-12-31",
+        "calorias_por_porcion": 160,
+        "peso_neto": "500 ml"
+    },
+    {
+        "id": 19,
+        "nombre": "Mantequilla",
+        "imagen": "link_imagen/mantequilla.jpg",
+        "precio": 900,
+        "categoria": "Lácteos",
+        "stock": 80,
+        "descripcion": "Mantequilla fresca de campo",
+        "marca": "Mantequilla Dorada",
+        "fecha_vencimiento": "2024-10-05",
+        "calorias_por_porcion": 717,
+        "peso_neto": "250 g"
+    },
+    {
+        "id": 20,
+        "nombre": "Puré de Tomate",
+        "imagen": "link_imagen/pure_tomate.jpg",
+        "precio": 550,
+        "categoria": "Conservas",
+        "stock": 150,
+        "descripcion": "Puré de tomate natural",
+        "marca": "Sabor del Huerto",
+        "fecha_vencimiento": "2025-01-15",
+        "calorias_por_porcion": 50,
+        "peso_neto": "400 g"
+    },
+    {
+        "id": 21,
+        "nombre": "Salsa de Soja",
+        "imagen": "link_imagen/salsa_soja.jpg",
+        "precio": 700,
+        "categoria": "Condimentos",
+        "stock": 120,
+        "descripcion": "Salsa de soja con bajo contenido de sodio",
+        "marca": "Sabor Oriental",
+        "fecha_vencimiento": "2025-02-01",
+        "calorias_por_porcion": 10,
+        "peso_neto": "250 ml"
+    },
+    {
+        "id": 22,
+        "nombre": "Té Verde",
+        "imagen": "link_imagen/te_verde.jpg",
+        "precio": 600,
+        "categoria": "Bebidas",
+        "stock": 90,
+        "descripcion": "Té verde en bolsitas",
+        "marca": "Té Natural",
+        "fecha_vencimiento": "2024-11-30",
+        "calorias_por_porcion": 2,
+        "peso_neto": "20 bolsitas"
+    },
+    {
+        "id": 23,
+        "nombre": "Sopa Instantánea",
+        "imagen": "link_imagen/sopa.jpg",
+        "precio": 400,
+        "categoria": "Comida Rápida",
+        "stock": 100,
+        "descripcion": "Sopa instantánea de pollo",
+        "marca": "Sopa Rápida",
+        "fecha_vencimiento": "2025-03-01",
+        "calorias_por_porcion": 200,
+        "peso_neto": "85 g"
+    },
+    {
+        "id": 24,
+        "nombre": "Harina de Trigo",
+        "imagen": "link_imagen/harina.jpg",
+        "precio": 600,
+        "categoria": "Granos",
+        "stock": 110,
+        "descripcion": "Harina de trigo 000",
+        "marca": "Harina Fina",
+        "fecha_vencimiento": "2025-06-15",
+        "calorias_por_porcion": 364,
+        "peso_neto": "1 kg"
+    },
+    {
+        "id": 25,
+        "nombre": "Frutas deshidratadas",
+        "imagen": "link_imagen/frutas_deshidratadas.jpg",
+        "precio": 1500,
+        "categoria": "Snacks",
+        "stock": 60,
+        "descripcion": "Mezcla de frutas deshidratadas",
+        "marca": "Fruta Seca",
+        "fecha_vencimiento": "2025-08-01",
+        "calorias_por_porcion": 250,
+        "peso_neto": "200 g"
+    }
+]
+
 }
